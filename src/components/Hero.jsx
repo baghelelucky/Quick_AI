@@ -10,7 +10,7 @@ const Hero = () => {
                     backdrop-blur-lg">
 
         <div className='mb-8'>
-            <h1 className='text-4xl sm:text-6xl md:text-7xl font-semibold mx-auto leading-tight'>Create amazing content <br/> with <span className='text-violet-500'>AI tools</span></h1>
+            <h1 className='text-4xl sm:text-6xl md:text-7xl font-semibold mx-auto leading-tight'>Create amazing content <br/> with <span className='text-violet-600'>AI tools</span></h1>
             <p className='mt-4 max-w-lg mx-auto text-gray-600'>Easily create stunning content with AI-powered tools that boost your creativity and save time.</p>
         </div>
 
@@ -18,7 +18,7 @@ const Hero = () => {
         <div className='flex flex-col items-center gap-4'>
             {/* Button Group */}
             <div className='flex flex-wrap justify-center gap-4 text-sm'>
-                <button onClick={() => navigate('/ai')} className='bg-violet-500 text-white px-10 py-3 rounded-lg hover:scale-105 active:scale-95 transition cursor-pointer'>Start Creating Now</button>
+                <button onClick={() => navigate('/ai')} className='bg-violet-600 text-white px-10 py-3 rounded-lg hover:scale-105 active:scale-95 transition cursor-pointer'>Start Creating Now</button>
                 <button className='bg-white px-10 py-3 rounded-lg border border-gray-300 hover:scale-102 active:scale-95 transition cursor-pointer'>Watch Demo</button>
             </div>
 
